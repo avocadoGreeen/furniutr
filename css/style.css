@@ -1,19 +1,18 @@
 @font-face {
-    font-family: 'SFProDisplay-Semibold';
-    src: url('../fonts/SFProDisplay-Semibold.woff2') format('woff2'),
-         url('../fonts/SFProDisplay-Semibold.woff') format('woff');
-    font-style: 600;
-    font-weight: normal;
-    font-display: swap;
+	font-family: 'SFProDisplay';
+	src: url('../fonts/SFProDisplay-Semibold.eot');
+	src: local('☺'), url('../fonts/SFProDisplay-Semibold.woff') format('woff'), url('../fonts/SFProDisplay-Semibold.ttf') format('truetype'), url('../fonts/SFProDisplay-Semibold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'SFProDisplay-Black';
-    src: url('../fonts/SFProDisplay-Black.woff2') format('woff2'),
-         url('../fonts/SFProDisplay-Black.woff') format('woff');
-    font-style: 900;
-    font-weight: normal;
-    font-display: swap;
+	font-family: 'SFProDisplay';
+	src: url('../fonts/SFProDisplay-Black.eot');
+	src: local('☺'), url('../fonts/SFProDisplay-Black.woff') format('woff'), url('../fonts/SFProDisplay-Black.ttf') format('truetype'), url('../fonts/SFProDisplay-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
 }
+
 
 body,
 html{
@@ -39,7 +38,7 @@ a{
     align-items: center;
 }
 .header__logo{
-    font-family: 'SFProDisplay-Black';
+    font-family: 'SFProDisplay';
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
@@ -104,7 +103,7 @@ a{
 }
 .decorate-home__subtitle{
     padding-top: 100px;
-    font-family: 'SFProDisplay-Black';
+    font-family: 'SFProDisplay';
     font-weight: 900;
     padding-bottom: 60px;
     text-transform: uppercase;
@@ -423,7 +422,7 @@ a{
     padding: 0 15px;
 }
 .footer__title{
-    font-family: 'SFProDisplay-Semibold';
+    font-family: 'SFProDisplay';
     font-weight: 600;
     font-size: 26px;
     line-height: 31px;
