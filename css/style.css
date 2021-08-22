@@ -150,6 +150,12 @@ a{
     text-align: center;
     background-color: #F7515C;
     color: #fff;
+    border: 1px solid transparent;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #282A30;
+    border: 1px solid #282A30;
 }
 .btn-video{
     padding: 25px 15px;
